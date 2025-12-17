@@ -7,8 +7,8 @@ import { imageStyles } from '~/utils/imageProcessing';
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Photo Style - 사진 스타일 변환" },
-    { name: "description", content: "40+ Instagram 스타일 필터로 사진을 변환해보세요" },
+    { title: "Photo Style - Convert photo style" },
+    { name: "description", content: "40+ Instagram Transform your photos with style filters" },
   ];
 };
 
@@ -40,29 +40,29 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
-      {/* 보안 알림 배너 */}
+      {/* security notification banner */}
       <div className="bg-gradient-to-r from-green-600 to-teal-600 text-white py-3 px-4">
         <div className="max-w-7xl mx-auto flex items-center justify-center gap-6 text-sm font-medium">
           <div className="flex items-center gap-2">
             <span className="text-lg">🔒</span>
-            <span>100% 브라우저 기반 처리</span>
+            <span>100% Browser-based processing</span>
           </div>
           <div className="hidden sm:flex items-center gap-2">
             <span className="text-lg">🛡️</span>
-            <span>서버에 이미지 저장 없음</span>
+            <span>No image storage on server</span>
           </div>
           <div className="hidden md:flex items-center gap-2">
             <span className="text-lg">✅</span>
-            <span>DB 사용 없음</span>
+            <span>DB No use</span>
           </div>
           <div className="hidden lg:flex items-center gap-2">
             <span className="text-lg">🔐</span>
-            <span>완전한 프라이버시 보장</span>
+            <span>Complete privacy guaranteed</span>
           </div>
         </div>
       </div>
 
-      {/* 헤더 */}
+      {/* header */}
       <header className="bg-white/80 backdrop-blur-sm shadow-sm border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
@@ -87,7 +87,7 @@ export default function Index() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
                 </svg>
-                새 이미지
+                new image
               </button>
             )}
           </div>
@@ -101,11 +101,11 @@ export default function Index() {
             <div className="text-center mb-8">
               <h2 className="text-4xl font-bold text-gray-800 mb-4">
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  사진에 멋진 스타일을 적용해보세요
+                  Apply cool styles to your photos
                 </span>
               </h2>
               <p className="text-lg text-gray-600">
-                40+ Instagram 스타일 필터로 사진을 변환할 수 있습니다
+                40+ Instagram You can transform your photos with style filters.
               </p>
             </div>
 
@@ -120,25 +120,25 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-green-900 mb-2">완벽한 프라이버시 보호</h3>
+                  <h3 className="font-semibold text-green-900 mb-2">Complete privacy protection</h3>
                   <ul className="text-sm text-green-800 space-y-1">
                     <li className="flex items-center gap-2">
                       <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      모든 이미지 처리는 브라우저에서만 실행됩니다
+                      All image processing is done exclusively in the browser.
                     </li>
                     <li className="flex items-center gap-2">
                       <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      서버로 이미지가 전송되거나 저장되지 않습니다
+                      Images are not sent or stored on the server.
                     </li>
                     <li className="flex items-center gap-2">
                       <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      데이터베이스를 사용하지 않습니다
+                      Doesn't use a database
                     </li>
                   </ul>
                 </div>
@@ -155,8 +155,8 @@ export default function Index() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
                   </svg>
                 </div>
-                <h3 className="font-semibold text-gray-800 mb-2">쉬운 업로드</h3>
-                <p className="text-sm text-gray-600">드래그 앤 드롭으로 간편하게 이미지를 업로드하세요</p>
+                <h3 className="font-semibold text-gray-800 mb-2">easy upload</h3>
+                <p className="text-sm text-gray-600">Upload images easily with drag and drop</p>
               </div>
               <div className="text-center bg-white rounded-xl p-6 shadow-sm border border-gray-100">
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-purple-200 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -164,8 +164,8 @@ export default function Index() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                   </svg>
                 </div>
-                <h3 className="font-semibold text-gray-800 mb-2">40+ 스타일</h3>
-                <p className="text-sm text-gray-600">Instagram 스타일 필터와 강도 조절 기능</p>
+                <h3 className="font-semibold text-gray-800 mb-2">40+ styles</h3>
+                <p className="text-sm text-gray-600">Instagram Style filters and intensity control</p>
               </div>
               <div className="text-center bg-white rounded-xl p-6 shadow-sm border border-gray-100">
                 <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -173,8 +173,8 @@ export default function Index() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                   </svg>
                 </div>
-                <h3 className="font-semibold text-gray-800 mb-2">즉시 다운로드</h3>
-                <p className="text-sm text-gray-600">편집된 이미지를 원클릭으로 저장</p>
+                <h3 className="font-semibold text-gray-800 mb-2">Instant download</h3>
+                <p className="text-sm text-gray-600">Save edited images with one click</p>
               </div>
             </div>
           </div>
@@ -199,38 +199,38 @@ export default function Index() {
         )}
       </main>
 
-      {/* 푸터 */}
+      {/* footer */}
       <footer className="mt-16 border-t border-gray-200 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          {/* 프라이버시 정책 섹션 */}
+          {/* Privacy Policy Section */}
           <div className="bg-gray-50 rounded-xl p-6 mb-6 max-w-4xl mx-auto">
             <h3 className="text-lg font-semibold text-gray-800 mb-4 text-center flex items-center justify-center gap-2">
               <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
               </svg>
-              프라이버시 정책
+              Privacy Policy
             </h3>
             <div className="grid md:grid-cols-3 gap-6 text-sm text-gray-600">
               <div className="text-center">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
                   <span className="text-xl">🔒</span>
                 </div>
-                <h4 className="font-medium text-gray-800 mb-1">로컬 처리</h4>
-                <p>모든 이미지 변환은 사용자의 브라우저에서만 처리되며, 외부 서버로 전송되지 않습니다.</p>
+                <h4 className="font-medium text-gray-800 mb-1">local processing</h4>
+                <p>All image conversions are processed solely in the user's browser and are not sent to external servers.</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
                   <span className="text-xl">🛡️</span>
                 </div>
-                <h4 className="font-medium text-gray-800 mb-1">데이터 미수집</h4>
-                <p>이미지, 개인정보, 사용 기록 등 어떠한 데이터도 수집하거나 저장하지 않습니다.</p>
+                <h4 className="font-medium text-gray-800 mb-1">Data not collected</h4>
+                <p>We do not collect or store any data, including images, personal information, or usage history.</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
                   <span className="text-xl">✅</span>
                 </div>
-                <h4 className="font-medium text-gray-800 mb-1">안전한 사용</h4>
-                <p>서버 연결 없이 작동하므로 해킹이나 데이터 유출 위험이 전혀 없습니다.</p>
+                <h4 className="font-medium text-gray-800 mb-1">safe use</h4>
+                <p>It works without a server connection, so there is no risk of hacking or data leakage.</p>
               </div>
             </div>
           </div>
