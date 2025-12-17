@@ -1121,8 +1121,8 @@ function ImagePreview({
 }
 const meta = () => {
   return [
-    { title: "Photo Style - 사진 스타일 변환" },
-    { name: "description", content: "40+ Instagram 스타일 필터로 사진을 변환해보세요" }
+    { title: "Photo Style - Convert photo style" },
+    { name: "description", content: "40+ Instagram Transform your photos with style filters" }
   ];
 };
 function Index() {
@@ -1152,19 +1152,19 @@ function Index() {
     /* @__PURE__ */ jsx("div", { className: "bg-gradient-to-r from-green-600 to-teal-600 text-white py-3 px-4", children: /* @__PURE__ */ jsxs("div", { className: "max-w-7xl mx-auto flex items-center justify-center gap-6 text-sm font-medium", children: [
       /* @__PURE__ */ jsxs("div", { className: "flex items-center gap-2", children: [
         /* @__PURE__ */ jsx("span", { className: "text-lg", children: "🔒" }),
-        /* @__PURE__ */ jsx("span", { children: "100% 브라우저 기반 처리" })
+        /* @__PURE__ */ jsx("span", { children: "100% Browser-based processing" })
       ] }),
       /* @__PURE__ */ jsxs("div", { className: "hidden sm:flex items-center gap-2", children: [
         /* @__PURE__ */ jsx("span", { className: "text-lg", children: "🛡️" }),
-        /* @__PURE__ */ jsx("span", { children: "서버에 이미지 저장 없음" })
+        /* @__PURE__ */ jsx("span", { children: "No image storage on server" })
       ] }),
       /* @__PURE__ */ jsxs("div", { className: "hidden md:flex items-center gap-2", children: [
         /* @__PURE__ */ jsx("span", { className: "text-lg", children: "✅" }),
-        /* @__PURE__ */ jsx("span", { children: "DB 사용 없음" })
+        /* @__PURE__ */ jsx("span", { children: "DB No use" })
       ] }),
       /* @__PURE__ */ jsxs("div", { className: "hidden lg:flex items-center gap-2", children: [
         /* @__PURE__ */ jsx("span", { className: "text-lg", children: "🔐" }),
-        /* @__PURE__ */ jsx("span", { children: "완전한 프라이버시 보장" })
+        /* @__PURE__ */ jsx("span", { children: "Complete privacy guaranteed" })
       ] })
     ] }) }),
     /* @__PURE__ */ jsx("header", { className: "bg-white/80 backdrop-blur-sm shadow-sm border-b border-gray-200 sticky top-0 z-50", children: /* @__PURE__ */ jsx("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4", children: /* @__PURE__ */ jsxs("div", { className: "flex items-center justify-between", children: [
@@ -1182,32 +1182,32 @@ function Index() {
           className: "px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors flex items-center gap-2",
           children: [
             /* @__PURE__ */ jsx("svg", { className: "w-4 h-4", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" }) }),
-            "새 이미지"
+            "new image"
           ]
         }
       )
     ] }) }) }),
     /* @__PURE__ */ jsx("main", { className: "w-full px-4 sm:px-6 lg:px-8 py-8", children: !uploadedImage ? /* @__PURE__ */ jsxs("div", { className: "flex flex-col items-center justify-center min-h-[60vh]", children: [
       /* @__PURE__ */ jsxs("div", { className: "text-center mb-8", children: [
-        /* @__PURE__ */ jsx("h2", { className: "text-4xl font-bold text-gray-800 mb-4", children: /* @__PURE__ */ jsx("span", { className: "bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent", children: "사진에 멋진 스타일을 적용해보세요" }) }),
-        /* @__PURE__ */ jsx("p", { className: "text-lg text-gray-600", children: "40+ Instagram 스타일 필터로 사진을 변환할 수 있습니다" })
+        /* @__PURE__ */ jsx("h2", { className: "text-4xl font-bold text-gray-800 mb-4", children: /* @__PURE__ */ jsx("span", { className: "bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent", children: "Apply cool styles to your photos" }) }),
+        /* @__PURE__ */ jsx("p", { className: "text-lg text-gray-600", children: "40+ Instagram You can transform your photos with style filters." })
       ] }),
       /* @__PURE__ */ jsx("div", { className: "max-w-2xl mx-auto mb-8 bg-gradient-to-r from-green-50 to-teal-50 border border-green-200 rounded-xl p-6 shadow-sm", children: /* @__PURE__ */ jsxs("div", { className: "flex items-start gap-4", children: [
         /* @__PURE__ */ jsx("div", { className: "flex-shrink-0", children: /* @__PURE__ */ jsx("div", { className: "w-12 h-12 bg-green-100 rounded-full flex items-center justify-center", children: /* @__PURE__ */ jsx("svg", { className: "w-6 h-6 text-green-600", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" }) }) }) }),
         /* @__PURE__ */ jsxs("div", { className: "flex-1", children: [
-          /* @__PURE__ */ jsx("h3", { className: "font-semibold text-green-900 mb-2", children: "완벽한 프라이버시 보호" }),
+          /* @__PURE__ */ jsx("h3", { className: "font-semibold text-green-900 mb-2", children: "Complete privacy protection" }),
           /* @__PURE__ */ jsxs("ul", { className: "text-sm text-green-800 space-y-1", children: [
             /* @__PURE__ */ jsxs("li", { className: "flex items-center gap-2", children: [
               /* @__PURE__ */ jsx("svg", { className: "w-4 h-4 text-green-600", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M5 13l4 4L19 7" }) }),
-              "모든 이미지 처리는 브라우저에서만 실행됩니다"
+              "All image processing is done exclusively in the browser."
             ] }),
             /* @__PURE__ */ jsxs("li", { className: "flex items-center gap-2", children: [
               /* @__PURE__ */ jsx("svg", { className: "w-4 h-4 text-green-600", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M5 13l4 4L19 7" }) }),
-              "서버로 이미지가 전송되거나 저장되지 않습니다"
+              "Images are not sent or stored on the server."
             ] }),
             /* @__PURE__ */ jsxs("li", { className: "flex items-center gap-2", children: [
               /* @__PURE__ */ jsx("svg", { className: "w-4 h-4 text-green-600", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M5 13l4 4L19 7" }) }),
-              "데이터베이스를 사용하지 않습니다"
+              "Doesn't use a database"
             ] })
           ] })
         ] })
@@ -1216,18 +1216,18 @@ function Index() {
       /* @__PURE__ */ jsxs("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-4xl", children: [
         /* @__PURE__ */ jsxs("div", { className: "text-center bg-white rounded-xl p-6 shadow-sm border border-gray-100", children: [
           /* @__PURE__ */ jsx("div", { className: "w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-200 rounded-full flex items-center justify-center mx-auto mb-4", children: /* @__PURE__ */ jsx("svg", { className: "w-8 h-8 text-blue-600", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" }) }) }),
-          /* @__PURE__ */ jsx("h3", { className: "font-semibold text-gray-800 mb-2", children: "쉬운 업로드" }),
-          /* @__PURE__ */ jsx("p", { className: "text-sm text-gray-600", children: "드래그 앤 드롭으로 간편하게 이미지를 업로드하세요" })
+          /* @__PURE__ */ jsx("h3", { className: "font-semibold text-gray-800 mb-2", children: "easy upload" }),
+          /* @__PURE__ */ jsx("p", { className: "text-sm text-gray-600", children: "Upload images easily with drag and drop" })
         ] }),
         /* @__PURE__ */ jsxs("div", { className: "text-center bg-white rounded-xl p-6 shadow-sm border border-gray-100", children: [
           /* @__PURE__ */ jsx("div", { className: "w-16 h-16 bg-gradient-to-br from-purple-100 to-purple-200 rounded-full flex items-center justify-center mx-auto mb-4", children: /* @__PURE__ */ jsx("svg", { className: "w-8 h-8 text-purple-600", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" }) }) }),
-          /* @__PURE__ */ jsx("h3", { className: "font-semibold text-gray-800 mb-2", children: "40+ 스타일" }),
-          /* @__PURE__ */ jsx("p", { className: "text-sm text-gray-600", children: "Instagram 스타일 필터와 강도 조절 기능" })
+          /* @__PURE__ */ jsx("h3", { className: "font-semibold text-gray-800 mb-2", children: "40+ styles" }),
+          /* @__PURE__ */ jsx("p", { className: "text-sm text-gray-600", children: "Instagram Style filters and intensity control" })
         ] }),
         /* @__PURE__ */ jsxs("div", { className: "text-center bg-white rounded-xl p-6 shadow-sm border border-gray-100", children: [
           /* @__PURE__ */ jsx("div", { className: "w-16 h-16 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-4", children: /* @__PURE__ */ jsx("svg", { className: "w-8 h-8 text-green-600", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" }) }) }),
-          /* @__PURE__ */ jsx("h3", { className: "font-semibold text-gray-800 mb-2", children: "즉시 다운로드" }),
-          /* @__PURE__ */ jsx("p", { className: "text-sm text-gray-600", children: "편집된 이미지를 원클릭으로 저장" })
+          /* @__PURE__ */ jsx("h3", { className: "font-semibold text-gray-800 mb-2", children: "Instant download" }),
+          /* @__PURE__ */ jsx("p", { className: "text-sm text-gray-600", children: "Save edited images with one click" })
         ] })
       ] })
     ] }) : /* @__PURE__ */ jsxs("div", { className: "space-y-8", children: [
@@ -1254,23 +1254,23 @@ function Index() {
       /* @__PURE__ */ jsxs("div", { className: "bg-gray-50 rounded-xl p-6 mb-6 max-w-4xl mx-auto", children: [
         /* @__PURE__ */ jsxs("h3", { className: "text-lg font-semibold text-gray-800 mb-4 text-center flex items-center justify-center gap-2", children: [
           /* @__PURE__ */ jsx("svg", { className: "w-5 h-5 text-green-600", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", children: /* @__PURE__ */ jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" }) }),
-          "프라이버시 정책"
+          "Privacy Policy"
         ] }),
         /* @__PURE__ */ jsxs("div", { className: "grid md:grid-cols-3 gap-6 text-sm text-gray-600", children: [
           /* @__PURE__ */ jsxs("div", { className: "text-center", children: [
             /* @__PURE__ */ jsx("div", { className: "w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3", children: /* @__PURE__ */ jsx("span", { className: "text-xl", children: "🔒" }) }),
-            /* @__PURE__ */ jsx("h4", { className: "font-medium text-gray-800 mb-1", children: "로컬 처리" }),
-            /* @__PURE__ */ jsx("p", { children: "모든 이미지 변환은 사용자의 브라우저에서만 처리되며, 외부 서버로 전송되지 않습니다." })
+            /* @__PURE__ */ jsx("h4", { className: "font-medium text-gray-800 mb-1", children: "local processing" }),
+            /* @__PURE__ */ jsx("p", { children: "All image conversions are processed solely in the user's browser and are not sent to external servers." })
           ] }),
           /* @__PURE__ */ jsxs("div", { className: "text-center", children: [
             /* @__PURE__ */ jsx("div", { className: "w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3", children: /* @__PURE__ */ jsx("span", { className: "text-xl", children: "🛡️" }) }),
-            /* @__PURE__ */ jsx("h4", { className: "font-medium text-gray-800 mb-1", children: "데이터 미수집" }),
-            /* @__PURE__ */ jsx("p", { children: "이미지, 개인정보, 사용 기록 등 어떠한 데이터도 수집하거나 저장하지 않습니다." })
+            /* @__PURE__ */ jsx("h4", { className: "font-medium text-gray-800 mb-1", children: "Data not collected" }),
+            /* @__PURE__ */ jsx("p", { children: "We do not collect or store any data, including images, personal information, or usage history." })
           ] }),
           /* @__PURE__ */ jsxs("div", { className: "text-center", children: [
             /* @__PURE__ */ jsx("div", { className: "w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3", children: /* @__PURE__ */ jsx("span", { className: "text-xl", children: "✅" }) }),
-            /* @__PURE__ */ jsx("h4", { className: "font-medium text-gray-800 mb-1", children: "안전한 사용" }),
-            /* @__PURE__ */ jsx("p", { children: "서버 연결 없이 작동하므로 해킹이나 데이터 유출 위험이 전혀 없습니다." })
+            /* @__PURE__ */ jsx("h4", { className: "font-medium text-gray-800 mb-1", children: "safe use" }),
+            /* @__PURE__ */ jsx("p", { children: "It works without a server connection, so there is no risk of hacking or data leakage." })
           ] })
         ] })
       ] }),
@@ -1283,7 +1283,7 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: Index,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-JlE5XoK5.js", "imports": ["/assets/index-BJHAE5s4.js", "/assets/components-oPy5vcAg.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/root-aTFf8i9H.js", "imports": ["/assets/index-BJHAE5s4.js", "/assets/components-oPy5vcAg.js"], "css": ["/assets/root-DzeweBfw.css"] }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/_index-BY1CAup4.js", "imports": ["/assets/index-BJHAE5s4.js"], "css": [] } }, "url": "/assets/manifest-92be0bcf.js", "version": "92be0bcf" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-JlE5XoK5.js", "imports": ["/assets/index-BJHAE5s4.js", "/assets/components-oPy5vcAg.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/root-aTFf8i9H.js", "imports": ["/assets/index-BJHAE5s4.js", "/assets/components-oPy5vcAg.js"], "css": ["/assets/root-DzeweBfw.css"] }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/_index-DnHBfNuR.js", "imports": ["/assets/index-BJHAE5s4.js"], "css": [] } }, "url": "/assets/manifest-ca3bbf7c.js", "version": "ca3bbf7c" };
 const mode = "production";
 const assetsBuildDirectory = "build\\client";
 const basename = "/";
