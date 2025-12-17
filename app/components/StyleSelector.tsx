@@ -101,9 +101,9 @@ export function StyleSelector({
       {/* Header with strength slider */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
         <div>
-          <h2 className="text-2xl font-bold text-gray-800">스타일 선택</h2>
+          <h2 className="text-2xl font-bold text-gray-800">Choose a style</h2>
           <p className="text-sm text-gray-500 mt-1">
-            40+ Instagram 스타일 필터 ({filteredStyles.length}개 표시)
+            40+ Instagram style filter ({filteredStyles.length}개 표시)
           </p>
         </div>
 
@@ -138,7 +138,7 @@ export function StyleSelector({
               : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
           }`}
         >
-          전체 ({categoryCounts.all})
+          entire ({categoryCounts.all})
         </button>
         {(Object.keys(filterCategories) as CategoryKey[]).map((category) => (
           <button
@@ -259,3 +259,4 @@ export function StyleSelector({
     </div>
   );
 }
+
