@@ -82,7 +82,7 @@ export function ImagePreview({
       <div className="bg-white rounded-xl shadow-lg p-6">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4">
           <div>
-            <h2 className="text-2xl font-bold text-gray-800">미리보기</h2>
+            <h2 className="text-2xl font-bold text-gray-800">Preview</h2>
             {selectedStyle.id !== 'normal' && (
               <p className="text-sm text-gray-500 mt-1">
                 {selectedStyle.nameKo} ({Math.round(strength * 100)}% 강도)
@@ -120,7 +120,7 @@ export function ImagePreview({
                   <div className="absolute inset-0 rounded-full border-4 border-gray-200"></div>
                   <div className="absolute inset-0 rounded-full border-4 border-blue-500 border-t-transparent animate-spin"></div>
                 </div>
-                <p className="text-gray-600 font-medium">필터 적용 중...</p>
+                <p className="text-gray-600 font-medium">Applying filter...</p>
                 <p className="text-sm text-gray-400 mt-1">{selectedStyle.nameKo}</p>
               </div>
             </div>
@@ -131,7 +131,7 @@ export function ImagePreview({
               <div className="overflow-auto">
                 <div className="flex items-center gap-2 mb-2 sticky top-0 bg-white py-1 z-10">
                   <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-gray-100 text-gray-700">
-                    원본
+                    text
                   </span>
                 </div>
                 <div className="flex justify-center bg-gray-50 rounded-lg p-2">
@@ -203,3 +203,4 @@ export function ImagePreview({
     </div>
   );
 }
+
